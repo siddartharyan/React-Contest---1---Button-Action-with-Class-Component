@@ -9,7 +9,7 @@ class App extends Component {
 
   render() {
     const handleClick = () => {
-      this.setState(!this.state.text);
+      this.setState({ text: true });
     };
     let ans = "";
     if (this.state.text) {
