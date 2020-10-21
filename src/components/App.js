@@ -21,7 +21,7 @@ class App extends Component {
         <button id="click" onClick={handleClick}>
           Click here
         </button>
-        <p id="para">{ans}</p>
+        {this.state.text ? <p id="para">{ans}</p> : null}
       </div>
     );
   }
